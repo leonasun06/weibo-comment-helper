@@ -23,10 +23,10 @@ A Chrome extension that helps automate likes, comments, and replies on Weibo pos
 ## Project Structure
 
 weibo-comment-helper/
-├── manifest.json # Extension configuration
-├── popup.html # Extension popup interface
-├── popup.js # Main functionality
-└── content.js # Page interaction scripts
+├── manifest.json     # Extension configuration
+├── popup.html        # Extension popup interface
+├── popup.js          # Main functionality
+└── content.js        # Page interaction scripts
 
 
 ## Usage
