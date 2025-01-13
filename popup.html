@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    body {
+      width: 300px;
+      padding: 10px;
+    }
+    button {
+      width: 100%;
+      padding: 8px;
+      margin-top: 10px;
+    }
+    .instruction {
+      font-size: 12px;
+      color: #666;
+      margin: 5px 0 15px 0;
+      padding: 5px;
+      background: #f5f5f5;
+      border-radius: 4px;
+      line-height: 1.4;
+    }
+    .divider {
+      border-bottom: 1px solid #eee;
+      margin: 10px 0;
+    }
+  </style>
+</head>
+<body>
+  <button id="likeButton">给20条评论点赞</button>
+  <div class="instruction">
+    使用说明：
+    <br>1. 打开任意微博评论区
+    <br>2. 点击此按钮自动点赞前20条评论
+    <br>3. 已点赞的评论会自动跳过
+  </div>
+  
+  <div class="divider"></div>
+  
+  <button id="commentButton">自动发送25条评论</button>
+  <div class="instruction">
+    使用说明：
+    <br>1. 打开任意微博评论区
+    <br>2. 点击此按钮自动发送25条评论
+    <br>3. 评论内容来自页面已有评论
+    <br>4. 每条评论间隔5秒
+  </div>
+  
+  <div class="divider"></div>
+  
+  <button id="replyButton">添加25条楼中楼回复</button>
+  <div class="instruction">
+    使用说明：
+    <br>1. 打开任意微博评论区
+    <br>2. 点击此按钮后，选择要回复的评论
+    <br>3. 点击该评论的回复按钮
+    <br>4. 自动发送25条回复，间隔5秒
+    <br>5. 回复内容来自页面已有评论
+  </div>
+  
+  <div id="status" style="margin-top: 10px; color: #666;"></div>
+  <script src="popup.js"></script>
+</body>
+</html> 
